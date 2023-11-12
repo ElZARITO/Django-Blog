@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-3!77ex3lt^1#wkdnho6k@_c_clg7-grep96_g9!im*ijnwj)e*
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['*']
 
 
 
@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'post.apps.PostConfig'
-    
+
 ]
 
 MEDIA_ROOT = os.path.join(BASE_DIR, "media/")
